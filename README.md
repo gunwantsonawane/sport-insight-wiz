@@ -9,6 +9,14 @@
 
 ---
 
+## 📚 Documentation
+
+- **[Hackathon Demo Guide](./HACKATHON_DEMO.md)** - Complete presentation deck for demo sessions including problem, solution, and impact
+- **[High-Level Code Explanation](./CODE_EXPLANATION.md)** - Comprehensive guide to understanding the codebase architecture and data flow
+- **[Capacitor Guide](./README_CAPACITOR.md)** - Mobile deployment instructions for iOS and Android
+
+---
+
 ## 📋 Project Summary
 
 SportLens AI is an advanced AI-powered sports analysis platform that provides instant, professional-grade coaching feedback on athletic performance. By leveraging cutting-edge computer vision and natural language AI, the application analyzes uploaded sport videos and delivers comprehensive technical assessments, improvement suggestions, and personalized coaching insights.
@@ -16,7 +24,7 @@ SportLens AI is an advanced AI-powered sports analysis platform that provides in
 ### Key Features
 
 - 🎥 **Video Upload & Processing**: Supports multiple video formats (MP4, MOV, AVI) up to 100MB
-- 🤖 **AI-Powered Analysis**: Uses Google Gemini 2.5 Flash for multi-modal vision analysis
+- 🤖 **AI-Powered Analysis**: Uses multi-modal vision analysis AI model
 - 📊 **Comprehensive Feedback**: Provides structured coaching in 5 key areas:
   - Sport detection with confidence scoring
   - Detailed technique analysis
@@ -49,7 +57,6 @@ SportLens AI is an advanced AI-powered sports analysis platform that provides in
 | Technology | Purpose |
 |------------|---------|
 | **Supabase Edge Functions** | Serverless Deno-based API endpoints |
-| **Google Gemini 2.5 Flash** | Multi-modal AI vision model for video analysis |
 | **Lovable AI Gateway** | Managed AI model access and routing |
 
 ### Mobile & Native
@@ -97,7 +104,7 @@ Client-Side Frame Extraction (3 frames)
     ↓
 POST to Supabase Edge Function
     ↓
-Lovable AI Gateway → Google Gemini 2.5 Flash
+Lovable AI Gateway → LLM
     ↓
 Multi-Modal Vision Analysis (Images + Coaching Prompt)
     ↓
@@ -380,7 +387,7 @@ This project is built with [Lovable](https://lovable.dev) and follows their term
 ## 🙏 Acknowledgments
 
 - **Lovable Platform**: For providing the development infrastructure
-- **Google Gemini**: For powerful vision AI capabilities
+- **LLM**: For powerful vision AI capabilities
 - **Supabase**: For serverless backend and edge functions
 - **Shadcn/ui**: For beautiful, accessible React components
 - **Radix UI**: For unstyled, accessible component primitives
