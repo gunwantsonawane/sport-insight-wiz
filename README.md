@@ -24,7 +24,7 @@ SportLens AI is an advanced AI-powered sports analysis platform that provides in
 ### Key Features
 
 - 🎥 **Video Upload & Processing**: Supports multiple video formats (MP4, MOV, AVI) up to 100MB
-- 🤖 **AI-Powered Analysis**: Uses multi-modal vision analysis AI model
+- 🤖 **AI-Powered Analysis**: Powered by OpenAI GPT-5-mini for multi-modal vision analysis
 - 📊 **Comprehensive Feedback**: Provides structured coaching in 5 key areas:
   - Sport detection with confidence scoring
   - Detailed technique analysis
@@ -57,6 +57,7 @@ SportLens AI is an advanced AI-powered sports analysis platform that provides in
 | Technology | Purpose |
 |------------|---------|
 | **Supabase Edge Functions** | Serverless Deno-based API endpoints |
+| **OpenAI GPT-5-mini** | Multi-modal AI vision model for video analysis |
 | **Lovable AI Gateway** | Managed AI model access and routing |
 
 ### Mobile & Native
@@ -104,7 +105,7 @@ Client-Side Frame Extraction (3 frames)
     ↓
 POST to Supabase Edge Function
     ↓
-Lovable AI Gateway → LLM
+Lovable AI Gateway → OpenAI GPT-5-mini
     ↓
 Multi-Modal Vision Analysis (Images + Coaching Prompt)
     ↓
@@ -387,7 +388,7 @@ This project is built with [Lovable](https://lovable.dev) and follows their term
 ## 🙏 Acknowledgments
 
 - **Lovable Platform**: For providing the development infrastructure
-- **LLM**: For powerful vision AI capabilities
+- **OpenAI**: For GPT-5-mini's powerful vision AI capabilities
 - **Supabase**: For serverless backend and edge functions
 - **Shadcn/ui**: For beautiful, accessible React components
 - **Radix UI**: For unstyled, accessible component primitives
