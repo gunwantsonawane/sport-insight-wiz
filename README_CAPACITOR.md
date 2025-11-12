@@ -1,4 +1,4 @@
-# Sport Insight Wizard - Capacitor Mobile Setup
+# SportLens AI - Capacitor Mobile Setup
 
 This app is built as a web application that can be converted to a native mobile app using Capacitor.
 
@@ -18,7 +18,7 @@ The Capacitor dependencies are already installed. Now follow these steps:
 2. Clone your repository:
 ```bash
 git clone <your-repo-url>
-cd sport-insight-wiz
+cd sportlens-ai
 ```
 
 ### 2. Install Dependencies
