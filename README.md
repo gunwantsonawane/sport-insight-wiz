@@ -392,7 +392,7 @@ This project is built with [Lovable](https://lovable.dev) and follows their term
 - **Issues**: Open an issue on GitHub
 - **Questions**: Contact via Lovable platform
 - **Live App**: [https://sport-insight-wiz.lovable.app/](https://sport-insight-wiz.lovable.app/)
-**Lovable Project**: [https://lovable.dev/projects/f8f0e91c-cd5b-44cc-85bf-e3b4d1a3581a](https://lovable.dev/projects/f8f0e91c-cd5b-44cc-85bf-e3b4d1a3581a)
+- **Lovable Project**: [https://lovable.dev/projects/f8f0e91c-cd5b-44cc-85bf-e3b4d1a3581a](https://lovable.dev/projects/f8f0e91c-cd5b-44cc-85bf-e3b4d1a3581a)
 
 ---
 
